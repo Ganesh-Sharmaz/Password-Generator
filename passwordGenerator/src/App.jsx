@@ -43,16 +43,18 @@ function App() {
 
     <>
       <div className=' overflow-hidden flex justify-center items-center w-full h-screen ' >
-        <div className=' bg-slate-500 rounded-xl px-5 py-3 shadow-lg mt-2 mb-4 max-w-md mx-auto w-full  text-orange-500'>
+        <div className=' bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:from-pink-500 hover:to-yellow-500 rounded-xl px-5 py-3 shadow-lg mt-2 mb-4 max-w-md mx-auto w-full  text-orange-500'>
 
           {/* Password Input and Copy starts here */}
 
-          <h1 className='px-4 text-lg text-white text-center mb-2'>Password Generator</h1>
+          
+
+          <h1 className='px-4 text-2xl text-white text-center mb-2 font-cus'>Password Generator</h1>
           <div className='flex shadow-xl rounded-xl overflow-hidden mb-4'>
             <input 
             type='text'
             value={Password}  
-            className='w-full px-3 py-1'
+            className='w-full px-3 py-1 selection:bg-fuchsia-300 selection:text-fuchsia-900'
             readOnly
             placeholder='Password'
             ref={passRef}
