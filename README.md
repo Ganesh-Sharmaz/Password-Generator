@@ -2,6 +2,15 @@
 
 This is a repo for making a Password Generator which allows users to set the range of passwords from 8 to 100 and choose to add numbers and characters.
 
+## Installation
+
+Install node JS in your system and then copy the project
+
+```bash
+  cd passwordGenerator
+  npm run dev
+```
+
 
 ## How it looks
 
